@@ -1,0 +1,668 @@
+/*Стили текста*/
+.pc_h1_light {
+    width: 36px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h1-light-font-family);
+    font-weight: var(--PC-heading-h1-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h1-light-font-size);
+    letter-spacing: var(--PC-heading-h1-light-letter-spacing);
+    line-height: var(--PC-heading-h1-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h1-light-font-style);
+}
+
+.pc_h1_medium {
+    width: 36px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h1-medium-font-family);
+    font-weight: var(--PC-heading-h1-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h1-medium-font-size);
+    letter-spacing: var(--PC-heading-h1-medium-letter-spacing);
+    line-height: var(--PC-heading-h1-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h1-medium-font-style);
+}
+
+.pc_h1_bold{
+    width: 36px;
+    height: auto;
+    position: fixed;
+    height: 43px;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h1-bold-font-family);
+    font-weight: var(--PC-heading-h1-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h1-bold-font-size);
+    letter-spacing: var(--PC-heading-h1-bold-letter-spacing);
+    line-height: var(--PC-heading-h1-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h1-bold-font-style);
+}
+
+.pc_h2_light {
+    width: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h2-light-font-family);
+    font-weight: var(--PC-heading-h2-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h2-light-font-size);
+    letter-spacing: var(--PC-heading-h2-light-letter-spacing);
+    line-height: var(--PC-heading-h2-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h2-light-font-style);
+}
+.pc_h2_medium {
+    margin: 0px;
+    width: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h2-medium-font-family);
+    font-weight: var(--PC-heading-h2-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h2-medium-font-size);
+    letter-spacing: var(--PC-heading-h2-medium-letter-spacing);
+    line-height: var(--PC-heading-h2-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h2-medium-font-style);
+}
+.pc_h2_bold {
+    margin: 0px;
+    width: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h2-bold-font-family);
+    font-weight: var(--PC-heading-h2-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h2-bold-font-size);
+    letter-spacing: var(--PC-heading-h2-bold-letter-spacing);
+    line-height: var(--PC-heading-h2-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h2-bold-font-style);
+}
+.pc_h3_light {
+    width: 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h3-light-font-family);
+    font-weight: var(--PC-heading-h3-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h3-light-font-size);
+    letter-spacing: var(--PC-heading-h3-light-letter-spacing);
+    line-height: var(--PC-heading-h3-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h3-light-font-style);
+}
+.pc_h3_medium {
+    width: 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h3-medium-font-family);
+    font-weight: var(--PC-heading-h3-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h3-medium-font-size);
+    letter-spacing: var(--PC-heading-h3-medium-letter-spacing);
+    line-height: var(--PC-heading-h3-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h3-medium-font-style);
+}
+.pc_h3_bold {
+    width: 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h3-bold-font-family);
+    font-weight: var(--PC-heading-h3-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h3-bold-font-size);
+    letter-spacing: var(--PC-heading-h3-bold-letter-spacing);
+    line-height: var(--PC-heading-h3-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h3-bold-font-style);
+}
+.pc_h4_light {
+    width: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h4-light-font-family);
+    font-weight: var(--PC-heading-h4-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h4-light-font-size);
+    letter-spacing: var(--PC-heading-h4-light-letter-spacing);
+    line-height: var(--PC-heading-h4-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h4-light-font-style);
+}
+.pc_h4_medium {
+    width: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h4-medium-font-family);
+    font-weight: var(--PC-heading-h4-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h4-medium-font-size);
+    letter-spacing: var(--PC-heading-h4-medium-letter-spacing);
+    line-height: var(--PC-heading-h4-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h4-medium-font-style);
+}
+.pc_h5_light {
+    width: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h5-light-font-family);
+    font-weight: var(--PC-heading-h5-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h5-light-font-size);
+    letter-spacing: var(--PC-heading-h5-light-letter-spacing);
+    line-height: var(--PC-heading-h5-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h5-light-font-style);
+}
+.pc_h5_medium {
+    width: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h5-medium-font-family);
+    font-weight: var(--PC-heading-h5-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h5-medium-font-size);
+    letter-spacing: var(--PC-heading-h5-medium-letter-spacing);
+    line-height: var(--PC-heading-h5-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h5-medium-font-style);
+}
+.pc_h5_bold {
+    width: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h5-bold-font-family);
+    font-weight: var(--PC-heading-h5-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h5-bold-font-size);
+    letter-spacing: var(--PC-heading-h5-bold-letter-spacing);
+    line-height: var(--PC-heading-h5-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h5-bold-font-style);
+}
+.pc_h6_light {
+    width: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h6-light-font-family);
+    font-weight: var(--PC-heading-h6-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h6-light-font-size);
+    letter-spacing: var(--PC-heading-h6-light-letter-spacing);
+    line-height: var(--PC-heading-h6-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h6-light-font-style);
+}
+.pc_h6_medium {
+    position: fixed;
+    width: 20px;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h6-medium-font-family);
+    font-weight: var(--PC-heading-h6-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h6-medium-font-size);
+    letter-spacing: var(--PC-heading-h6-medium-letter-spacing);
+    line-height: var(--PC-heading-h6-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h6-medium-font-style);
+}
+
+.pc_h6_bold {
+    width: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-heading-h6-bold-font-family);
+    font-weight: var(--PC-heading-h6-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-heading-h6-bold-font-size);
+    letter-spacing: var(--PC-heading-h6-bold-letter-spacing);
+    line-height: var(--PC-heading-h6-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-heading-h6-bold-font-style);
+}
+
+.pc_text_lg_light {
+    width: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-lg-light-font-family);
+    font-weight: var(--PC-body-text-lg-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-lg-light-font-size);
+    letter-spacing: var(--PC-body-text-lg-light-letter-spacing);
+    line-height: var(--PC-body-text-lg-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-text-lg-light-font-style);
+}
+.pc_text_lg_medium {
+    width: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-lg-medium-font-family);
+    font-weight: var(--PC-body-text-lg-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-lg-medium-font-size);
+    letter-spacing: var(--PC-body-text-lg-medium-letter-spacing);
+    line-height: var(--PC-body-text-lg-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-text-lg-medium-font-style);
+}
+.pc_text_lg_bold {
+    width: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-lg-bold-font-family);
+    font-weight: var(--PC-body-text-lg-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-lg-bold-font-size);
+    letter-spacing: var(--PC-body-text-lg-bold-letter-spacing);
+    line-height: var(--PC-body-text-lg-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-text-lg-bold-font-style);
+}
+.pc_text_md_light {
+    width: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-md-light-font-family);
+    font-weight: var(--PC-body-text-md-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-md-light-font-size);
+    letter-spacing: var(--PC-body-text-md-light-letter-spacing);
+    line-height: var(--PC-body-text-md-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-text-md-light-font-style);
+}
+.pc_text_md_medium {
+    width: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-md-medium-font-family);
+    font-weight: var(--PC-body-text-md-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-md-medium-font-size);
+    letter-spacing: var(--PC-body-text-md-medium-letter-spacing);
+    line-height: var(--PC-body-text-md-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-text-md-medium-font-style);
+}
+.pc_text_md_bold {
+    width: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-md-bold-font-family);
+    font-weight: var(--PC-body-text-md-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-md-bold-font-size);
+    letter-spacing: var(--PC-body-text-md-bold-letter-spacing);
+    line-height: var(--PC-body-text-md-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-text-md-bold-font-style);
+}
+.pc_text_sm_light {
+    width: 14px;
+    font-weight: var(--PC-body-text-sm-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-sm-light-font-size);
+    letter-spacing: var(--PC-body-text-sm-light-letter-spacing);
+    line-height: var(--PC-body-text-sm-light-line-height);
+    
+}
+.pc_text_sm_medium {
+    width: 14px;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-sm-medium-font-family);
+    font-weight: var(--PC-body-text-sm-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-sm-medium-font-size);
+    letter-spacing: var(--PC-body-text-sm-medium-letter-spacing);
+    line-height: var(--PC-body-text-sm-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-text-sm-medium-font-style);
+}
+.pc_text_sm_bold {
+    width: 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-text-sm-bold-font-family);
+    font-weight: var(--PC-body-text-sm-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-text-sm-bold-font-size);
+    letter-spacing: var(--PC-body-text-sm-bold-letter-spacing);
+    line-height: var(--PC-body-text-sm-bold-line-height);
+}
+.pc_lable_light {
+    width: 12px;
+    font-family: var(--PC-body-lable-light-font-family);
+    font-weight: var(--PC-body-lable-light-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-lable-light-font-size);
+    letter-spacing: var(--PC-body-lable-light-letter-spacing);
+    line-height: var(--PC-body-lable-light-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-lable-light-font-style);
+}
+.pc_lable_medium {
+    width: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-lable-medium-font-family);
+    font-weight: var(--PC-body-lable-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-lable-medium-font-size);
+    letter-spacing: var(--PC-body-lable-medium-letter-spacing);
+    line-height: var(--PC-body-lable-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-lable-medium-font-style);
+}
+.pc_lable_bold {
+    width: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: var(--PC-body-lable-bold-font-family);
+    font-weight: var(--PC-body-lable-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--PC-body-lable-bold-font-size);
+    letter-spacing: var(--PC-body-lable-bold-letter-spacing);
+    line-height: var(--PC-body-lable-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--PC-body-lable-bold-font-style);
+}
+/*Конец стилей текста*/
+
+
+:root {
+    --shadesblack: rgba(0, 0, 0, 1);
+    --shadeswhite: rgba(255, 255, 255, 1);
+    --gray-25: rgba(248, 248, 250, 1);
+    --gray-50: rgba(232, 233, 237, 1);
+    --gray-100: rgba(225, 226, 230, 1);
+    --gray-200: rgba(196, 198, 205, 1);
+    --gray-300: rgba(167, 170, 181, 1);
+    --gray-400: rgba(140, 143, 157, 1);
+    --gray-500: rgba(113, 117, 134, 1);
+    --gray-600: rgba(97, 101, 116, 1);
+    --gray-700: rgba(82, 85, 98, 1);
+    --gray-800: rgba(53, 55, 64, 1);
+    --gray-900: rgba(26, 28, 33, 1);
+    --accent-25: rgba(230, 239, 255, 1);
+    --accent-50: rgba(180, 205, 255, 1);
+    --accent-100: rgba(132, 171, 255, 1);
+    --accent-200: rgba(85, 135, 253, 1);
+    --accent-300: rgba(62, 115, 251, 1);
+    --accent-400: rgba(39, 94, 247, 1);
+    --accent-500: rgba(17, 68, 244, 1);
+    --accent-600: rgba(13, 58, 212, 1);
+    --accent-700: rgba(9, 48, 181, 1);
+    --accent-800: rgba(6, 38, 151, 1);
+    --accent-900: rgba(4, 29, 122, 1);
+    --primary-25: rgba(239, 254, 238, 1);
+    --primary-50: rgba(223, 254, 221, 1);
+    --primary-100: rgba(189, 251, 185, 1);
+    --primary-200: rgba(152, 248, 148, 1);
+    --primary-300: rgba(106, 243, 105, 1);
+    --primary-400: rgba(76, 241, 79, 1);
+    --primary-500: rgba(20, 238, 42, 1);
+    --primary-600: rgba(16, 207, 35, 1);
+    --primary-700: rgba(12, 177, 28, 1);
+    --primary-800: rgba(8, 147, 22, 1);
+    --primary-900: rgba(0, 111, 0, 1);
+    --error-25: rgba(255, 251, 250, 1);
+    --error-50: rgba(254, 243, 242, 1);
+    --error-100: rgba(254, 228, 226, 1);
+    --error-200: rgba(254, 205, 202, 1);
+    --error-300: rgba(253, 162, 155, 1);
+    --error-400: rgba(249, 112, 102, 1);
+    --error-500: rgba(240, 68, 56, 1);
+    --error-600: rgba(217, 45, 32, 1);
+    --error-700: rgba(180, 35, 24, 1);
+    --error-800: rgba(145, 32, 24, 1);
+    --error-900: rgba(122, 39, 26, 1);
+    --warning-25: rgba(255, 252, 245, 1);
+    --warning-50: rgba(255, 250, 235, 1);
+    --warning-100: rgba(254, 240, 199, 1);
+    --warning-200: rgba(254, 223, 137, 1);
+    --warning-300: rgba(254, 200, 75, 1);
+    --warning-400: rgba(253, 176, 34, 1);
+    --warning-500: rgba(247, 144, 9, 1);
+    --warning-600: rgba(220, 104, 3, 1);
+    --warning-700: rgba(181, 71, 8, 1);
+    --warning-800: rgba(147, 55, 13, 1);
+    --warning-900: rgba(122, 46, 14, 1);
+    --success-25: rgba(246, 254, 249, 1);
+    --success-50: rgba(236, 253, 243, 1);
+    --success-100: rgba(209, 250, 223, 1);
+    --success-200: rgba(166, 244, 197, 1);
+    --success-300: rgba(108, 233, 166, 1);
+    --success-400: rgba(50, 213, 131, 1);
+    --success-500: rgba(18, 183, 106, 1);
+    --success-600: rgba(3, 152, 85, 1);
+    --success-700: rgba(2, 122, 72, 1);
+    --success-800: rgba(5, 96, 58, 1);
+    --success-900: rgba(5, 79, 49, 1);
+    --PC-heading-h1-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-heading-h1-bold-font-weight: 700;
+    --PC-heading-h1-bold-font-size: 36px;
+    --PC-heading-h1-bold-letter-spacing: -0.72px;
+    --PC-heading-h1-bold-line-height: 120.00000476837158%;
+    --PC-heading-h1-bold-font-style: normal;
+    --PC-heading-h1-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-heading-h1-medium-font-weight: 500;
+    --PC-heading-h1-medium-font-size: 36px;
+    --PC-heading-h1-medium-letter-spacing: -0.72px;
+    --PC-heading-h1-medium-line-height: 120.00000476837158%;
+    --PC-heading-h1-medium-font-style: normal;
+    --PC-heading-h1-light-font-family: "Rubik-Light", Helvetica;
+    --PC-heading-h1-light-font-weight: 300;
+    --PC-heading-h1-light-font-size: 36px;
+    --PC-heading-h1-light-letter-spacing: -0.72px;
+    --PC-heading-h1-light-line-height: 120.00000476837158%;
+    --PC-heading-h1-light-font-style: normal;
+    --PC-heading-h2-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-heading-h2-bold-font-weight: 700;
+    --PC-heading-h2-bold-font-size: 32px;
+    --PC-heading-h2-bold-letter-spacing: -0.64px;
+    --PC-heading-h2-bold-line-height: 120.00000476837158%;
+    --PC-heading-h2-bold-font-style: normal;
+    --PC-heading-h2-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-heading-h2-medium-font-weight: 500;
+    --PC-heading-h2-medium-font-size: 32px;
+    --PC-heading-h2-medium-letter-spacing: -0.64px;
+    --PC-heading-h2-medium-line-height: 120.00000476837158%;
+    --PC-heading-h2-medium-font-style: normal;
+    --PC-heading-h2-light-font-family: "Rubik-Light", Helvetica;
+    --PC-heading-h2-light-font-weight: 300;
+    --PC-heading-h2-light-font-size: 32px;
+    --PC-heading-h2-light-letter-spacing: -0.64px;
+    --PC-heading-h2-light-line-height: 120.00000476837158%;
+    --PC-heading-h2-light-font-style: normal;
+    --PC-heading-h3-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-heading-h3-bold-font-weight: 700;
+    --PC-heading-h3-bold-font-size: 28px;
+    --PC-heading-h3-bold-letter-spacing: -0.56px;
+    --PC-heading-h3-bold-line-height: 120.00000476837158%;
+    --PC-heading-h3-bold-font-style: normal;
+    --PC-heading-h3-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-heading-h3-medium-font-weight: 500;
+    --PC-heading-h3-medium-font-size: 28px;
+    --PC-heading-h3-medium-letter-spacing: -0.56px;
+    --PC-heading-h3-medium-line-height: 120.00000476837158%;
+    --PC-heading-h3-medium-font-style: normal;
+    --PC-heading-h3-light-font-family: "Rubik-Light", Helvetica;
+    --PC-heading-h3-light-font-weight: 300;
+    --PC-heading-h3-light-font-size: 28px;
+    --PC-heading-h3-light-letter-spacing: -0.56px;
+    --PC-heading-h3-light-line-height: 120.00000476837158%;
+    --PC-heading-h3-light-font-style: normal;
+    --PC-heading-h4-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-heading-h4-bold-font-weight: 700;
+    --PC-heading-h4-bold-font-size: 25px;
+    --PC-heading-h4-bold-letter-spacing: -0.5px;
+    --PC-heading-h4-bold-line-height: 120.00000476837158%;
+    --PC-heading-h4-bold-font-style: normal;
+    --PC-heading-h4-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-heading-h4-medium-font-weight: 500;
+    --PC-heading-h4-medium-font-size: 25px;
+    --PC-heading-h4-medium-letter-spacing: -0.5px;
+    --PC-heading-h4-medium-line-height: 120.00000476837158%;
+    --PC-heading-h4-medium-font-style: normal;
+    --PC-heading-h4-light-font-family: "Rubik-Light", Helvetica;
+    --PC-heading-h4-light-font-weight: 300;
+    --PC-heading-h4-light-font-size: 25px;
+    --PC-heading-h4-light-letter-spacing: -0.5px;
+    --PC-heading-h4-light-line-height: 120.00000476837158%;
+    --PC-heading-h4-light-font-style: normal;
+    --PC-heading-h5-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-heading-h5-bold-font-weight: 700;
+    --PC-heading-h5-bold-font-size: 22px;
+    --PC-heading-h5-bold-letter-spacing: -0.44px;
+    --PC-heading-h5-bold-line-height: 120.00000476837158%;
+    --PC-heading-h5-bold-font-style: normal;
+    --PC-heading-h5-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-heading-h5-medium-font-weight: 500;
+    --PC-heading-h5-medium-font-size: 22px;
+    --PC-heading-h5-medium-letter-spacing: -0.44px;
+    --PC-heading-h5-medium-line-height: 120.00000476837158%;
+    --PC-heading-h5-medium-font-style: normal;
+    --PC-heading-h5-light-font-family: "Rubik-Light", Helvetica;
+    --PC-heading-h5-light-font-weight: 300;
+    --PC-heading-h5-light-font-size: 22px;
+    --PC-heading-h5-light-letter-spacing: -0.44px;
+    --PC-heading-h5-light-line-height: 120.00000476837158%;
+    --PC-heading-h5-light-font-style: normal;
+    --PC-heading-h6-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-heading-h6-bold-font-weight: 700;
+    --PC-heading-h6-bold-font-size: 20px;
+    --PC-heading-h6-bold-letter-spacing: -0.4px;
+    --PC-heading-h6-bold-line-height: 120.00000476837158%;
+    --PC-heading-h6-bold-font-style: normal;
+    --PC-heading-h6-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-heading-h6-medium-font-weight: 500;
+    --PC-heading-h6-medium-font-size: 20px;
+    --PC-heading-h6-medium-letter-spacing: -0.4px;
+    --PC-heading-h6-medium-line-height: 120.00000476837158%;
+    --PC-heading-h6-medium-font-style: normal;
+    --PC-heading-h6-light-font-family: "Rubik-Light", Helvetica;
+    --PC-heading-h6-light-font-weight: 300;
+    --PC-heading-h6-light-font-size: 20px;
+    --PC-heading-h6-light-letter-spacing: -0.4px;
+    --PC-heading-h6-light-line-height: 120.00000476837158%;
+    --PC-heading-h6-light-font-style: normal;
+    --PC-body-text-lg-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-body-text-lg-bold-font-weight: 700;
+    --PC-body-text-lg-bold-font-size: 18px;
+    --PC-body-text-lg-bold-letter-spacing: 0.36px;
+    --PC-body-text-lg-bold-line-height: 139.9999976158142%;
+    --PC-body-text-lg-bold-font-style: normal;
+    --PC-body-text-lg-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-body-text-lg-medium-font-weight: 500;
+    --PC-body-text-lg-medium-font-size: 18px;
+    --PC-body-text-lg-medium-letter-spacing: 0.36px;
+    --PC-body-text-lg-medium-line-height: 139.9999976158142%;
+    --PC-body-text-lg-medium-font-style: normal;
+    --PC-body-text-lg-light-font-family: "Rubik-Light", Helvetica;
+    --PC-body-text-lg-light-font-weight: 300;
+    --PC-body-text-lg-light-font-size: 18px;
+    --PC-body-text-lg-light-letter-spacing: 0.36px;
+    --PC-body-text-lg-light-line-height: 139.9999976158142%;
+    --PC-body-text-lg-light-font-style: normal;
+    --PC-body-text-md-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-body-text-md-bold-font-weight: 700;
+    --PC-body-text-md-bold-font-size: 16px;
+    --PC-body-text-md-bold-letter-spacing: 0.32px;
+    --PC-body-text-md-bold-line-height: 139.9999976158142%;
+    --PC-body-text-md-bold-font-style: normal;
+    --PC-body-text-md-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-body-text-md-medium-font-weight: 500;
+    --PC-body-text-md-medium-font-size: 16px;
+    --PC-body-text-md-medium-letter-spacing: 0.32px;
+    --PC-body-text-md-medium-line-height: 139.9999976158142%;
+    --PC-body-text-md-medium-font-style: normal;
+    --PC-body-text-md-light-font-family: "Rubik-Light", Helvetica;
+    --PC-body-text-md-light-font-weight: 300;
+    --PC-body-text-md-light-font-size: 16px;
+    --PC-body-text-md-light-letter-spacing: 0.32px;
+    --PC-body-text-md-light-line-height: 139.9999976158142%;
+    --PC-body-text-md-light-font-style: normal;
+    --PC-body-text-sm-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-body-text-sm-bold-font-weight: 700;
+    --PC-body-text-sm-bold-font-size: 14px;
+    --PC-body-text-sm-bold-letter-spacing: 0.28px;
+    --PC-body-text-sm-bold-line-height: 139.9999976158142%;
+    --PC-body-text-sm-bold-font-style: normal;
+    --PC-body-text-sm-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-body-text-sm-medium-font-weight: 500;
+    --PC-body-text-sm-medium-font-size: 14px;
+    --PC-body-text-sm-medium-letter-spacing: 0.28px;
+    --PC-body-text-sm-medium-line-height: 139.9999976158142%;
+    --PC-body-text-sm-medium-font-style: normal;
+    --PC-body-text-sm-light-font-family: "Rubik-Light", Helvetica;
+    --PC-body-text-sm-light-font-weight: 300;
+    --PC-body-text-sm-light-font-size: 14px;
+    --PC-body-text-sm-light-letter-spacing: 0.28px;
+    --PC-body-text-sm-light-line-height: 139.9999976158142%;
+    --PC-body-text-sm-light-font-style: normal;
+    --PC-body-lable-bold-font-family: "Rubik-Bold", Helvetica;
+    --PC-body-lable-bold-font-weight: 700;
+    --PC-body-lable-bold-font-size: 12px;
+    --PC-body-lable-bold-letter-spacing: 0.24px;
+    --PC-body-lable-bold-line-height: 139.9999976158142%;
+    --PC-body-lable-bold-font-style: normal;
+    --PC-body-lable-medium-font-family: "Rubik-Medium", Helvetica;
+    --PC-body-lable-medium-font-weight: 500;
+    --PC-body-lable-medium-font-size: 12px;
+    --PC-body-lable-medium-letter-spacing: 0.24px;
+    --PC-body-lable-medium-line-height: 139.9999976158142%;
+    --PC-body-lable-medium-font-style: normal;
+    --PC-body-lable-light-font-family: "Rubik-Light", Helvetica;
+    --PC-body-lable-light-font-weight: 300;
+    --PC-body-lable-light-font-size: 12px;
+    --PC-body-lable-light-letter-spacing: 0.24px;
+    --PC-body-lable-light-line-height: 139.9999976158142%;
+    --PC-body-lable-light-font-style: normal;
+    --shadow-xs: 0px 1px 2px 0px rgba(50, 52, 59, 0.15);
+    --shadow-sm: 0px 1px 3px 0px rgba(25, 26, 30, 0.12);
+    --shadow-md: 0px 4px 8px -1px rgba(25, 26, 30, 0.12);
+    --shadow-lg: 0px 8px 16px -2px rgba(25, 26, 30, 0.12);
+    --shadow-xl: 0px 12px 24px -3px rgba(25, 26, 30, 0.12);
+    --shadow-2xl: 0px 24px 48px -4px rgba(25, 26, 30, 0.12);
+    --shadow-3xl: 0px 32px 64px -5px rgba(25, 26, 30, 0.12);
+}
