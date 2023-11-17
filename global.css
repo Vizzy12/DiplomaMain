@@ -1,7 +1,15 @@
+/*Адаптацыя
+@media (max-width: 1440px){
+    .main-page-PC{
+        font-size: 50px;
+        width: auto;
+    }
+}
+*/
+
 /*Стили текста*/
 .pc_h1_light {
-    width: 36px;
-    height: auto;
+    height: 36px;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,9 +24,7 @@
 }
 
 .pc_h1_medium {
-    width: 36px;
-    height: auto;
-    position: fixed;
+    height: 36px;
     top: 0;
     left: 0;
     font-family: var(--PC-heading-h1-medium-font-family);
@@ -32,9 +38,8 @@
 }
 
 .pc_h1_bold{
-    width: 36px;
+    height: 36px;
     height: auto;
-    position: fixed;
     height: 43px;
     top: 0;
     left: 0;
@@ -49,8 +54,7 @@
 }
 
 .pc_h2_light {
-    width: 32px;
-    position: fixed;
+    height: 32px;
     top: 0;
     left: 0;
     font-family: var(--PC-heading-h2-light-font-family);
@@ -64,7 +68,7 @@
 }
 .pc_h2_medium {
     margin: 0px;
-    width: 32px;
+    height: 32px;
     position: fixed;
     top: 0;
     left: 0;
@@ -122,7 +126,7 @@
 }
 .pc_h3_bold {
     width: 28px;
-    position: fixed;
+    margin: 0px;
     top: 0;
     left: 0;
     font-family: var(--PC-heading-h3-bold-font-family);
@@ -219,7 +223,6 @@
     font-style: var(--PC-heading-h6-light-font-style);
 }
 .pc_h6_medium {
-    position: fixed;
     width: 20px;
     top: 0;
     left: 0;
@@ -234,8 +237,8 @@
 }
 
 .pc_h6_bold {
+    margin: 0px;
     width: 20px;
-    position: fixed;
     top: 0;
     left: 0;
     font-family: var(--PC-heading-h6-bold-font-family);
@@ -250,7 +253,7 @@
 
 .pc_text_lg_light {
     width: 18px;
-    position: fixed;
+    
     top: 0;
     left: 0;
     font-family: var(--PC-body-text-lg-light-font-family);
@@ -264,7 +267,7 @@
 }
 .pc_text_lg_medium {
     width: 18px;
-    position: fixed;
+    
     top: 0;
     left: 0;
     font-family: var(--PC-body-text-lg-medium-font-family);
@@ -278,7 +281,7 @@
 }
 .pc_text_lg_bold {
     width: 18px;
-    position: fixed;
+    
     top: 0;
     left: 0;
     font-family: var(--PC-body-text-lg-bold-font-family);
@@ -292,7 +295,7 @@
 }
 .pc_text_md_light {
     width: 16px;
-    position: fixed;
+    
     top: 0;
     left: 0;
     font-family: var(--PC-body-text-md-light-font-family);
@@ -333,7 +336,8 @@
     font-style: var(--PC-body-text-md-bold-font-style);
 }
 .pc_text_sm_light {
-    width: 14px;
+    margin: 0px;
+    height: 18px;
     font-weight: var(--PC-body-text-sm-light-font-weight);
     color: var(--gray-900);
     font-size: var(--PC-body-text-sm-light-font-size);
@@ -342,7 +346,8 @@
     
 }
 .pc_text_sm_medium {
-    width: 14px;
+    margin: 0px;
+    height: 14px;
     /*position: fixed;*/
     top: 0;
     left: 0;
@@ -357,7 +362,7 @@
 }
 .pc_text_sm_bold {
     width: 14px;
-    position: fixed;
+    position: relative              ;
     top: 0;
     left: 0;
     font-family: var(--PC-body-text-sm-bold-font-family);
